@@ -15,4 +15,12 @@ class UtilTest extends TestCase
         $this->assertEquals($util->convertToSlug(), $expected);
         // echo $util->convertToSlug();
     }
+    public function testWithoutSpacer()
+    {
+        $util = new Util("  PHPUnit Test Rocks  ");
+        //revisamos 
+        $expected ="phpunit-test-rocks";
+        //afirmamos que es igual
+        $this->assertEquals($util->convertToSlug(), $expected);
+    }
 }
