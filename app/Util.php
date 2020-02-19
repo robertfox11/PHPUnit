@@ -2,7 +2,7 @@
 
 class Util
 {
-    protected $text;
+    public $text;
 
     public function __construct($text)
     {
