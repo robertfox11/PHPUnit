@@ -29,7 +29,7 @@ class ExampleTest extends TestCase
         $this->assertIsString("este texto");
     }
     //test class
-    public function testClassatributoExiste()
+    public function testClassAttributeExiste()
     {
         // $this->assertClassHasAttribute('foo', stdClass::class);
         // $util = new Util();
